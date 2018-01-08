@@ -1,0 +1,12 @@
+{
+    "name": "user/ex1-using",
+    "require": {
+        "symfony/console": "4.0.3",
+        "otus-user-ugraweb/ex1": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "user\\ex1\\using\\": "src"
+        }
+    }
+}
