@@ -37,7 +37,7 @@ class ExecuteAppCommand extends Command
         try {
             $object = new ValidatorSequence($content);
         } catch (InvalidArgumentException $exception) {
-            return "error - sequence is not a valid sequence";
+            return "error - sequence is not a valid";
         }
         if ($object->checkSequence()) {
             return "true";
